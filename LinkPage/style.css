@@ -1,0 +1,125 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@200&display=swap');
+
+/*font-family: 'Sora', sans-serif;*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font: 400 1rem 'Sora', sans-serif;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-image: url(assets/img/1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+    
+    
+    /*background: linear-gradient(0deg, #360234 0%, #0c294b 100%)*/
+}
+
+button{
+    cursor: pointer;
+    border: 0;
+}
+
+button:focus{
+    outline: none;
+    border: solid 2px white;
+}
+
+.img-perfil{
+    width: 90%;
+    height: 100px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-perfil img {
+    width: 140px;
+    height: 140px;
+    padding-bottom: 5px;
+    border-radius: 75px;
+}
+
+.social-icons{
+    width: 90%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icons ul {
+    list-style: none;
+}
+
+.social-icons ul li {
+    display: inline-block;
+    margin: 5px;
+}
+
+.social-icons ul li img {
+    width: 25px;
+    height: 25px;
+}
+
+.social-links{
+    width: 55%;
+    height: auto;
+}
+
+.social-links ul{
+    list-style: none;
+}
+
+.social-links ul li {
+    margin-bottom: 10px;
+}
+
+.social-links ul li button {
+    width:100%;
+    height: 60px;
+    border-radius: 20px;
+    background: rgba( 255, 255, 255, 0.05 );
+    backdrop-filter: blur( 0.5px );
+    -webkit-backdrop-filter: blur( 0.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    color: white;
+    font-size: 1.1rem;
+
+    transition: background .3s;
+}
+
+.social-links ul li button:hover{
+    background-color: #1118795e;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+}
+
+
+
+
+
+/*width: 100px;
+    height: 100px;
+    border-radius: 50px;*/

@@ -1,0 +1,228 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Valorant';
+    src: url('Valorant.ttf') format('truetype');
+}
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image: url(img/vava.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+
+.h1{
+    display: inline-block;
+    font-family: 'Valorant', sans-serif;
+    text-transform: uppercase;
+    color: white;
+    padding-bottom: 55px;
+    text-align: center;
+}
+
+.h1-2{
+    font-family: 'Valorant', sans-serif;
+    text-transform: uppercase;
+    display: inline-block;
+    padding-bottom: 5px;
+    color: white;
+}
+
+.container {
+    float: left;
+    padding-bottom: 15px;
+    padding-top: 20px;
+    max-width: 980px;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+section{
+    display: grid;
+    box-sizing: border-box;
+    width: 650px;
+    height: 600px;
+    border-radius: 9px;
+    background: rgba( 112, 123, 251, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+form {
+    
+}
+
+.div01 {
+    display: grid;
+    align-content: center;
+    
+}
+
+input {
+    cursor: pointer;
+    width: 90%;
+    margin-bottom: 12px;
+    padding: 16px;
+    border-radius: 6px;
+    border: none;
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    background: rgba(112, 123, 251, 0.048);
+    color: black;
+    
+}
+
+form a, input, button {
+    display: block;
+}
+
+input:focus {
+    border: 3px solid #5599ff;
+    outline: none;
+    color: rgb(255, 255, 255);
+}
+
+input::placeholder {
+    font-size: 18px;
+    color: white;
+}
+
+input:hover{
+    background-color: #5599ff;
+}
+
+
+
+form a {
+    margin: 5px;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #5599ff;
+}
+
+form a:hover{
+    padding-top: 5px;
+    background-color: #5599ff;
+    border-radius: 10px;
+    border-bottom: 1px solid #5599ff;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+/*--------------------------*/
+
+.entrar, .criar-conta{
+    font-weight: bold;
+    color: white;
+    border-radius: 6px;
+    border: none;
+    padding: 16px;
+    cursor: pointer;
+    text-align: center;
+    transition: 200ms cubic-bezier(0.08, 0.52, 0.52, 1);
+}
+
+.entrar {
+    width: 90%;
+    margin-bottom: 12px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    margin-left: 15px;
+    border-radius: 6px;
+    border: none;
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    background: rgba(112, 123, 251, 0.048);
+    
+    
+}
+
+.entrar:hover{
+    background: #5599ff;
+    border: solid 1px #4e95ff;
+}
+
+.criar-conta {
+    font-size: 17px;
+    /*background: #42b72a;*/
+    background: rgba( 112, 123, 251, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    margin: 0px auto;
+    margin-top: 24px;
+}
+
+.criar-conta:hover {
+    background: #5599ff;
+}
+
+@media (max-width: 650px){
+
+    body > img {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    section{
+        display: inline-block;
+        align-items: center;
+        width: 85vw;
+        height: 90vw;
+        margin-left: 35px;
+        margin-right: auto;
+    }
+
+    form a{
+        
+    }
+
+    form a:hover {
+        transition: none;
+    }
+
+    #esqueceu-senha{
+        
+        transition: none;
+
+    }
+
+    #esqueceu-senha:hover{
+        transition: none;
+    }
+
+    .h1{
+        padding-top: 15px;
+    }
+
+
+
+}
