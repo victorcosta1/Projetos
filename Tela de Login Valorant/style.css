@@ -190,7 +190,10 @@ form a:hover{
     body > img {
         width: 100vw;
         height: 100vh;
+        background-position: center;
+        background-size: cover;
     }
+
 
     section{
         display: inline-block;
