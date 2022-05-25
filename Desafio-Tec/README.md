@@ -67,7 +67,7 @@ O alert:
  
  No mais é isso, a parte mais profunda do código vocês podem ver no próprio repository. Caso queiram testar a aplicação, subi ela no próprio Pages do git:
  
- https://victorcosta1.github.io/Projetos/To-do-List/
+ [https://victorcosta1.github.io/Projetos/To-do-List/](https://victorcosta1.github.io/Projetos/Desafio-Tec/O4/To-do-List%20(Ex-4)/)
  
  
  ## Diagrama de relação
